@@ -4,6 +4,12 @@
 
 The IRDI Parser is a Python program designed to parse IRDI (International Registration Data Identifier) strings based on the international standards ISO/IEC 11179-6, ISO 29002 and ISO/IEC 6523. It is used in the [ECLASS](https://eclass.eu/support/technical-specification/structure-and-elements/irdi) standard. The program uses regular expressions to extract various components of an IRDI string and returns them in a structured format.
 
+## Installation
+
+```bash
+pip install irdi-parser
+```
+
 ## Usage
 
 Here's a basic example of how to use the `IRDIParser` class:
